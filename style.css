@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+[class^="Left"]{
+    width: 40vw;
+}
+
+[class^="Right"]{
+    width: 60vw;
+}
+
+.LeftDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: grey;
+}
+
+.LeftTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: teal; 
+}
+
+.RightDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.RightSignup{
+    height: 300px; 
+    background-color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.RightSignup:hover{
+    box-shadow: 0px 5px 0px 0px #66ffff, 0px -5px 0px 0px #66ffff;
+}
